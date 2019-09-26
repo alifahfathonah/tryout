@@ -1,7 +1,7 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 /**
- *  
+ *  Kurang construct untuk auto halaman login
  */
 class Admin extends CI_Controller
 { 
@@ -19,7 +19,6 @@ class Admin extends CI_Controller
 		if ($username==='@dmin' && $password==='add-bk') {
 			$_SESSION['admin']='admin';
 			//echo "benarrrrr";
-			//echo $_SESSION['admin'];
 			redirect('admin/index');
 		}
 		else{
