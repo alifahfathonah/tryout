@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 20, 2018 at 12:09 PM
--- Server version: 10.1.13-MariaDB
--- PHP Version: 5.6.23
+-- Generation Time: 27 Sep 2019 pada 06.00
+-- Versi Server: 10.1.19-MariaDB
+-- PHP Version: 7.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -23,7 +23,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `blog`
+-- Struktur dari tabel `blog`
 --
 
 CREATE TABLE `blog` (
@@ -36,7 +36,7 @@ CREATE TABLE `blog` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `blog`
+-- Dumping data untuk tabel `blog`
 --
 
 INSERT INTO `blog` (`id_blog`, `title`, `cover`, `isi`, `tanggal`, `oleh`) VALUES
@@ -49,7 +49,7 @@ INSERT INTO `blog` (`id_blog`, `title`, `cover`, `isi`, `tanggal`, `oleh`) VALUE
 -- --------------------------------------------------------
 
 --
--- Table structure for table `nilai`
+-- Struktur dari tabel `nilai`
 --
 
 CREATE TABLE `nilai` (
@@ -63,7 +63,7 @@ CREATE TABLE `nilai` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `nilai`
+-- Dumping data untuk tabel `nilai`
 --
 
 INSERT INTO `nilai` (`ID_nilai`, `Id_siswa`, `id_tes`, `skor`, `salah`, `benar`, `kosong`) VALUES
@@ -75,12 +75,15 @@ INSERT INTO `nilai` (`ID_nilai`, `Id_siswa`, `id_tes`, `skor`, `salah`, `benar`,
 (15, 2, 5, 10, '', '1', ''),
 (16, 7, 4, 10, '', '1', '2|3|4'),
 (17, 7, 4, 10, '4', '1', '2|3'),
-(18, 7, 5, 0, '1', '', '');
+(18, 7, 5, 0, '1', '', ''),
+(19, 8, 5, 10, '', '1', ''),
+(20, 8, 5, 0, '1', '', ''),
+(21, 8, 5, 10, '', '1', '');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `pembahasan`
+-- Struktur dari tabel `pembahasan`
 --
 
 CREATE TABLE `pembahasan` (
@@ -91,7 +94,7 @@ CREATE TABLE `pembahasan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `pembahasan`
+-- Dumping data untuk tabel `pembahasan`
 --
 
 INSERT INTO `pembahasan` (`id_pembahasan`, `id_soal`, `link`, `isi`) VALUES
@@ -107,7 +110,7 @@ INSERT INTO `pembahasan` (`id_pembahasan`, `id_soal`, `link`, `isi`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `siswa`
+-- Struktur dari tabel `siswa`
 --
 
 CREATE TABLE `siswa` (
@@ -122,7 +125,7 @@ CREATE TABLE `siswa` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `siswa`
+-- Dumping data untuk tabel `siswa`
 --
 
 INSERT INTO `siswa` (`ID_siswa`, `email`, `password`, `nama`, `tgl_lhr`, `sma`, `tlp`, `join`) VALUES
@@ -130,12 +133,13 @@ INSERT INTO `siswa` (`ID_siswa`, `email`, `password`, `nama`, `tgl_lhr`, `sma`, 
 (2, 'akbaralzaini@gmail.com', 'f039e5f60e85d10bf7b742e65ad931ca', 'akbar alzaini', '2018-06-08', 'sma 4 lahat', '08297287282', '0000-00-00 00:00:00'),
 (5, 'alzain@gmail.com', '74b87337454200d4d33f80c4663dc5e5', 'alzaini', '2018-06-14', NULL, '3232323232', '2018-06-23 09:15:13'),
 (6, 'alz@gm.com', '604654492e7d61bdd04c456f4b191222', 'alzz', '2018-07-03', NULL, '199191', '2018-07-05 05:20:36'),
-(7, 'rizki.akbar1611@gmail.com', '9367c028d3e5aa999537d9533a5554a6', 'babar', '1996-11-16', NULL, '', '2018-08-01 09:40:00');
+(7, 'rizki.akbar1611@gmail.com', '9367c028d3e5aa999537d9533a5554a6', 'babar', '1996-11-16', NULL, '', '2018-08-01 09:40:00'),
+(8, 'al@gmail.com', 'b0b93e272985500da71718134bea2cc7', 'akbar alzaini', '2019-09-03', 'lahat', '9098789798', '2019-09-26 00:00:00');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `soal`
+-- Struktur dari tabel `soal`
 --
 
 CREATE TABLE `soal` (
@@ -151,7 +155,7 @@ CREATE TABLE `soal` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `soal`
+-- Dumping data untuk tabel `soal`
 --
 
 INSERT INTO `soal` (`ID_soal`, `soal`, `a`, `b`, `c`, `d`, `e`, `kunci`, `id_tes`) VALUES
@@ -170,7 +174,7 @@ INSERT INTO `soal` (`ID_soal`, `soal`, `a`, `b`, `c`, `d`, `e`, `kunci`, `id_tes
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tes`
+-- Struktur dari tabel `tes`
 --
 
 CREATE TABLE `tes` (
@@ -183,17 +187,18 @@ CREATE TABLE `tes` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tes`
+-- Dumping data untuk tabel `tes`
 --
 
 INSERT INTO `tes` (`id_tes`, `nama_tes`, `tipe`, `waktu_upload`, `start`, `end`) VALUES
 (4, 'TES TPA 1', 1, '2018-07-29 09:08:51', '2018-07-23 23:01:00', '2018-07-31 01:02:00'),
-(5, 'TES SAINTEK 1', 2, '2018-07-29 12:43:11', '2018-07-09 02:22:00', '2018-07-10 14:02:00');
+(5, 'TES SAINTEK 1', 2, '2018-07-29 12:43:11', '2018-07-09 02:22:00', '2018-07-10 14:02:00'),
+(6, 'bbaba', 1, '2019-09-26 06:46:15', '2019-09-04 00:00:00', '2019-09-03 00:00:00');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `voucer`
+-- Struktur dari tabel `voucer`
 --
 
 CREATE TABLE `voucer` (
@@ -263,7 +268,7 @@ ALTER TABLE `blog`
 -- AUTO_INCREMENT for table `nilai`
 --
 ALTER TABLE `nilai`
-  MODIFY `ID_nilai` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `ID_nilai` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 --
 -- AUTO_INCREMENT for table `pembahasan`
 --
@@ -273,7 +278,7 @@ ALTER TABLE `pembahasan`
 -- AUTO_INCREMENT for table `siswa`
 --
 ALTER TABLE `siswa`
-  MODIFY `ID_siswa` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `ID_siswa` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT for table `soal`
 --
@@ -283,7 +288,7 @@ ALTER TABLE `soal`
 -- AUTO_INCREMENT for table `tes`
 --
 ALTER TABLE `tes`
-  MODIFY `id_tes` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_tes` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `voucer`
 --
