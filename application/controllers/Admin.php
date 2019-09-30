@@ -118,7 +118,7 @@ class Admin extends CI_Controller
 		
 		$id_soal = $_GET['id_sl'];
 		$da = $this->Msoal->soal($id_soal)->result();
-		$this->load->view("admin/form_edit?id=$id_soal",$data);
+		$this->load->view("admin/form_edit?id=$id_soal",$da);
 	}
 
 	function save_soal(){
