@@ -57,7 +57,7 @@
                                  <div class="tp-caption title sfr stl tp-resizeme cust-z-index-6 rs-cust-style1" data-x="570" data-y="190" data-speed="500" data-start="1350" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8400" data-endspeed="300">Dapatkan video pembahasan yang menarik
                                 </div>
                                 <div class="tp-caption slide_text sfr stl tp-resizeme cust-z-index-7 rs-cust-style2" data-x="570" data-y="380" data-speed="500" data-start="1750" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8500" data-endspeed="300">
-									<span class="font-w_400">setiap soal memiliki video pembahasan yang dijeslakan langsung oleh pakarnya dan memiliki cara jitu untuk menyelesaikanya</span>
+									<span class="font-w_400">setiap soal memiliki video pembahasan yang dijelaskan langsung oleh pakarnya dan memiliki cara jitu untuk menyelesaikanya</span>
                                 </div>
                                 <div class="tp-caption slide_button customin stl tp-resizeme cust-z-index-8 rs-cust-style3" data-x="570" data-y="460" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:-20;transformOrigin:50% 0%;" data-speed="500" data-start="2200" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8600" data-endspeed="300">
 									<a href="#" class="slide_button_white">Start Learning Now</a>
@@ -69,7 +69,7 @@
                                 <div class="tp-caption customin stl cust-z-index-5 rs-cust-style8" data-x="40" data-y="200" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:360;scaleX:0.1;scaleY:0.1;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;" data-speed="1300" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8250" data-endspeed="300">
 									<img src="<?php echo base_url('dst/images/slide-2-1.png'); ?>" alt="">
                                 </div>
-                                <div class="tp-caption title sfb stb tp-resizeme cust-z-index-6 rs-cust-style1" data-x="570" data-y="200" data-speed="500" data-start="1350" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8400" data-endspeed="300">Bedah kampus
+                                <div class="tp-caption title sfb stb tp-resizeme cust-z-index-6 rs-cust-style1" data-x="570" data-y="200" data-speed="500" data-start="1350" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8400" data-endspeed="300">H!Campus
                                 </div>
                                 <div class="tp-caption slide_text sfb stb tp-resizeme cust-z-index-7 rs-cust-style2" data-x="570" data-y="355" data-speed="500" data-start="1750" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8500" data-endspeed="300">
 									<span class="font-w_400">belajar secara online dimanapun dan kapanpun dengan biaya yang terjangkau oleh siswa</span>
@@ -87,7 +87,7 @@
                                 <div class="tp-caption title customin stb tp-resizeme cust-z-index-6 rs-cust-style1" data-x="570" data-y="200" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:20;transformOrigin:50% 100%;" data-speed="500" data-start="1350" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8400" data-endspeed="300">dapatkan tips dan trik
                                 </div>
                                 <div class="tp-caption slide_text customin stb tp-resizeme cust-z-index-7 rs-cust-style2" data-x="570" data-y="355" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:20;transformOrigin:50% 100%;" data-speed="500" data-start="1750" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8500" data-endspeed="300" >
-									<span class="font-w_400">dapatkan tips dan trik dari bedah kampus untuk menembus persaingan masuk perguruan tinggi</span>
+									<span class="font-w_400">dapatkan tips dan trik dari H!Campus untuk menembus persaingan masuk perguruan tinggi</span>
                                 </div>
                                 <div class="tp-caption slide_button customin stb tp-resizeme cust-z-index-8 rs-cust-style3" data-x="570" data-y="460" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:20;transformOrigin:50% 100%;" data-speed="500" data-start="2200" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8600" data-endspeed="300">
 									<a href="#" class="slide_button_white">Start Learning Now</a>
@@ -112,8 +112,8 @@
 											<a href="#" class="sc_icon icon-woman-2 sc_icon_bg_menu menu_dark_color font_5em lh_1em"></a>
 											<div class="sc_section font-w_400 margin_top_1em_imp">
 												<p>
-													<a class="menu_color" href="#">Take computer science courses<br />
-													with personalized support</a>
+													<a class="menu_color" href="#">Materi mudah dimengerti<br />
+													dengan pembahasan setiap soal</a>
 												</p>
 											</div>
 										</div>
@@ -121,8 +121,8 @@
 											<a href="#" class="sc_icon icon-rocket-2 sc_icon_bg_menu menu_dark_color font_5em lh_1em"></a>
 											<div class="sc_section font-w_400 margin_top_1em_imp">
 												<p>
-													<a class="menu_color" href="#">Build cool projects<br />
-													to showcase your skills</a>
+													<a class="menu_color" href="#">Video Pembahasan<br />
+													untuk meningkatkan pemahaman</a>
 												</p>
 											</div>
 										</div>
@@ -130,8 +130,8 @@
 											<a href="#" class="sc_icon icon-world-2 sc_icon_bg_menu menu_dark_color font_5em lh_1em"></a>
 											<div class="sc_section font-w_400 margin_top_1em_imp">
 												<p>
-													<a class="menu_color" href="#">Earn certificates<br />
-													recognized by Industry</a>
+													<a class="menu_color" href="#">Try Out Online <br />
+													Nasional se-Indonesia!</a>
 												</p>
 											</div>
 										</div>
@@ -149,48 +149,48 @@
 											<div class="columns_wrap sc_columns columns_nofluid sc_columns_count_3">
 												<div class="column-1_3 sc_column_item sc_column_item_1 odd first text_center">
 													<div class="sc_price_block sc_price_block_style_1 width_100per">
-														<div class="sc_price_block_title">Trial</div>
+														<div class="sc_price_block_title">Cobain</div>
 														<div class="sc_price_block_money">
 															<div class="sc_price_block_icon icon-clock-2"></div>
 														</div>
 														<div class="sc_price_block_description">
-															<span class="sc_highlight font_2_57em lh_1em"><b>Free!</b> 30 Days</span>
+															<span class="sc_highlight font_2_46em lh_1em"><b>Free!</b> Online Tryout</span>
 														</div>
 														<div class="sc_price_block_link">
-															<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">I WANT THIS PLAN</a>
+															<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Cobain Yuk!</a>
 														</div>
 													</div>
 												</div>
 												<div class="column-1_3 sc_column_item sc_column_item_2 even text_center">
 													<div class="sc_price_block sc_price_block_style_2">
-														<div class="sc_price_block_title">Monthly</div>
+														<div class="sc_price_block_title">Try Out Nasional</div>
 														<div class="sc_price_block_money">
-															<div class="sc_price"><span class="sc_price_currency">$</span><span class="sc_price_money">89</span></div>
+															<div class="sc_price"><span class="sc_price_currency">Rp</span><span class="sc_price_money">15K</span></div>
 														</div>
 														<div class="sc_price_block_description">
-															<p><b>Save $98</b> every year compared to the monthly
-																<br /> plan by paying yearly.</p>
+															<p><b>1 X</b> Try Out Nasional
+																<br /> Bareng teman-teman kamu se-Indonesia</p>
 														</div>
 														<div class="sc_price_block_link">
-															<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">I WANT THIS PLAN</a>
+															<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Cobain Yuk</a>
 														</div>
 													</div>
 												</div>
 												<div class="column-1_3 sc_column_item sc_column_item_3 odd text_center">
 													<div class="sc_price_block sc_price_block_style_3">
-														<div class="sc_price_block_title">Yearly</div>
+														<div class="sc_price_block_title">Paket Bulanan</div>
 														<div class="sc_price_block_money">
 															<div class="sc_price">
-																<span class="sc_price_currency">$</span>
-																<span class="sc_price_money">129</span>
+																<span class="sc_price_currency">Rp.</span>
+																<span class="sc_price_money">100K</span>
 															</div>
 														</div>
 														<div class="sc_price_block_description">
-															<p><b>Save $120</b> every year compared to the monthly
-																<br /> plan by paying biannually.</p>
+															<p><b>Cuma dengan Rp.100 rb</b> Akses seluruh materi
+																<br /> dan bebas ikut try out nasional!</p>
 														</div>
 														<div class="sc_price_block_link">
-															<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">I WANT THIS PLAN</a>
+															<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Aku Mau Ini!</a>
 														</div>
 													</div>
 												</div>
