@@ -60,7 +60,7 @@
 									<span class="font-w_400">setiap soal memiliki video pembahasan yang dijelaskan langsung oleh pakarnya dan memiliki cara jitu untuk menyelesaikanya</span>
                                 </div>
                                 <div class="tp-caption slide_button customin stl tp-resizeme cust-z-index-8 rs-cust-style3" data-x="570" data-y="460" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:-20;transformOrigin:50% 0%;" data-speed="500" data-start="2200" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8600" data-endspeed="300">
-									<a href="#" class="slide_button_white">Start Learning Now</a>
+									<a href="<?= site_url('siswa/log')?>" class="slide_button_white">Start Learning Now</a>
                                 </div>
                             </li>
                             <!-- Slide 2 -->
@@ -75,7 +75,7 @@
 									<span class="font-w_400">belajar secara online dimanapun dan kapanpun dengan biaya yang terjangkau oleh siswa</span>
                                 </div>
                                 <div class="tp-caption slide_button customin stb tp-resizeme cust-z-index-8 rs-cust-style3" data-x="570" data-y="460" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:20;transformOrigin:50% 100%;" data-speed="500" data-start="2200" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8600" data-endspeed="300">
-									<a href="#" class="slide_button_white">Start Learning Now</a>
+									<a href="<?= site_url('siswa/log')?>" class="slide_button_white">Start Learning Now</a>
                                 </div>
                             </li>
                             <!-- Slide 3 -->
@@ -90,7 +90,7 @@
 									<span class="font-w_400">dapatkan tips dan trik dari H!Campus untuk menembus persaingan masuk perguruan tinggi</span>
                                 </div>
                                 <div class="tp-caption slide_button customin stb tp-resizeme cust-z-index-8 rs-cust-style3" data-x="570" data-y="460" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:20;transformOrigin:50% 100%;" data-speed="500" data-start="2200" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="8600" data-endspeed="300">
-									<a href="#" class="slide_button_white">Start Learning Now</a>
+									<a href="<?= site_url('siswa/log')?>" class="slide_button_white">Start Learning Now</a>
                                 </div>
                             </li>
                         </ul>
@@ -168,7 +168,7 @@
 															<span class="sc_highlight font_2_46em lh_1em"><b>Free!</b> Online Tryout</span>
 														</div>
 														<div class="sc_price_block_link">
-															<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Cobain Yuk!</a>
+															<a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Cobain Yuk!</a>
 														</div>
 													</div>
 												</div>
@@ -183,7 +183,7 @@
 																<br /> Bareng teman-teman kamu se-Indonesia</p>
 														</div>
 														<div class="sc_price_block_link">
-															<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Cobain Yuk</a>
+															<a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Cobain Yuk</a>
 														</div>
 													</div>
 												</div>
@@ -201,7 +201,7 @@
 																<br /> dan bebas ikut try out nasional!</p>
 														</div>
 														<div class="sc_price_block_link">
-															<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Aku Mau Ini!</a>
+															<a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Aku Mau Ini!</a>
 														</div>
 													</div>
 												</div>

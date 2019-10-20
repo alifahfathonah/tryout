@@ -55,6 +55,7 @@
 										<li class="menu-item"><a href="lihatnilai">Nilai</a></li>
 									</ul>
 								</li>
+                                <li class="menu-item"><a href="<?= site_url('admin')?>">Admin</a></li>
 							</ul>
 						</nav>
 						<!-- /Navigation -->

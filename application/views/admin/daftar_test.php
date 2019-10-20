@@ -43,7 +43,7 @@
                   <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
               </div>
             <!--logo start-->
-            <a href="index.html" class="logo"><b>Admin Bedah kampus</b></a>
+            <a href="#" class="logo"><b>Admin H! Campus</b></a>
             <!--logo end-->
             <div class="top-menu">
               <ul class="nav pull-right top-menu">
@@ -98,7 +98,7 @@
                             <td>$row->start</td>
                             <td>$row->end</td>
                             <td>$row->waktu_upload</td>
-                            <td><a href='updt_tes?id_sl=$row->id_tes'><button class='btn btn-primary btn-xs'><i class='fa fa-pencil'></i></button></a>
+                            <td><a href='#'><button class='btn btn-primary btn-xs'><i class='fa fa-pencil'></i></button></a>
                                 <a href='del_tes?id_sl=$row->id_tes'><button class='btn btn-danger btn-xs'><i class='fa fa-trash-o ''></i></button></td></a>
                           </tr>";
                           } ?>

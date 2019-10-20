@@ -39,7 +39,7 @@
 			<!-- Copyright -->
             <div class="copyright_wrap">
                 <div class="content_wrap">
-                    <p>© 2018 All Rights Reserved Codingin <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a></p>
+                    <p>© 2019 All Rights Reserved Anti-Ngebug <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a></p>
                 </div>
             </div>
 			<!-- /Copyright -->
