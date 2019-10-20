@@ -148,7 +148,7 @@
 										</div>
 										<?php $i++; } ?>
                                         <input type="hidden" name="id_tes" value="<?php echo $id_tes; ?>">
-										<button class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_medium alignleft sc_buttons_st1" type="submit" href="#" style="float: right;" onclick="return confirm('apakah benar akan di input?')">Sumbit soal</button>
+										<button class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_medium alignleft sc_buttons_st1" type="submit" href="#" style="float: right;" onclick="return confirm('apakah benar akan di input?')">Submit Jawaban</button>
 										</form>
                                         
                                     </div>
