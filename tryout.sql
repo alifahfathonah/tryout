@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.9.0.1
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 20, 2019 at 04:02 AM
--- Server version: 10.1.19-MariaDB
--- PHP Version: 7.0.13
+-- Generation Time: Oct 20, 2019 at 09:33 AM
+-- Server version: 10.4.6-MariaDB
+-- PHP Version: 7.1.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -99,7 +101,7 @@ CREATE TABLE `pembahasan` (
 
 INSERT INTO `pembahasan` (`id_pembahasan`, `id_soal`, `link`, `isi`) VALUES
 (1, 12, 'dst/images/pembahasan/pembahasan.mp4', ' '),
-(2, 13, 'dst/images/pembahasan/pembahasan.mp4', '<p>sasasas</p>\r\n\r\n<p><img alt="" src="http://localhost/TO/dst/userfiles/files/694207.jpg" style="float:left; height:102px; width:200px" />bdjhudsyds SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS SSSSSSSSS SSSSSSSSSS SSSSSSSSSSS SSSSSSSSSSSS SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</p>\r\n'),
+(2, 13, 'dst/images/pembahasan/pembahasan.mp4', '<p>sasasas</p>\r\n\r\n<p><img alt=\"\" src=\"http://localhost/TO/dst/userfiles/files/694207.jpg\" style=\"float:left; height:102px; width:200px\" />bdjhudsyds SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS SSSSSSSSS SSSSSSSSSS SSSSSSSSSSS SSSSSSSSSSSS SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</p>\r\n'),
 (3, 14, 'dst/images/pembahasan/pembahasan.mp4', '<p>ssdddx</p>\r\n'),
 (4, 15, 'dst/images/pembahasan/pembahasan.mp4', '<p>dsdsds</p>\r\n'),
 (5, 16, 'dst/images/pembahasan/pembahasan.mp4', ' '),
@@ -113,9 +115,30 @@ INSERT INTO `pembahasan` (`id_pembahasan`, `id_soal`, `link`, `isi`) VALUES
 (13, 31, 'dst/images/pembahasan/pembahasan.mp4', 'P	Q\r\n100.000	50\r\n50.000	30\r\n \r\n\r\nE = PQ QP\r\n\r\n= 100.00050 2050.000\r\n\r\n= 0,8'),
 (14, 32, 'dst/images/pembahasan/pembahasan.mp4', 'Biaya yang tidak perlu dikeluarkan perusahaan saat sedang tidak berproduksi disebut sebagai biaya variabel.'),
 (15, 33, 'dst/images/pembahasan/pembahasan.mp4', '\r\nMobilitas sosial merupakan proses perpindahan kelas sosial dalam dimensi stratifikasi atau diferensiasi. Dalam kasus ini, mobilitas yang terjadi adalah mobilitas stratifikasi yakni vertikal turun karena kelas sosial berpindah turun jadi kelas sosial yang lebih rendah dari sebelumnya.'),
-(16, 34, '''dst/images/pembahasan/pembahasan.mp4''', 'Berikut ciri-ciri sistem ekonomi tradisional:\r\n\r\nHanya punya sedikit modal\r\nBelum mengenal pembagian kerja\r\nTeknik produksi dipelajari secara turun temurun dan bersifat sederhana\r\nKegiatan perekonomian masih terkait dengan tradisi\r\nTanah merupakan sumber daya kemakmuran'),
-(17, 34, '''dst/images/pembahasan/pembahasan.mp4''', 'Perbedaan pendapat dalam masyarakat merupakan salah satu pemicu konflik sosial. Dalam kasus reklamasi pantai, ada pihak yang menganggap positif, tetapi ada pula pihak yang menganggap reklamasi sebagai kegiatan yang merusak lingkungan.'),
-(18, 36, '''dst/images/pembahasan/pembahasan.mp4''', 'Menurut Ruth Benedict, motif merupakan salah satu kajian dalam dinamika sosial. Motif memiliki arti sebagai tujuan yang akan dicapai dalam perkembangan dinamika sosial. So, berdasarkan pernyataan di atas, koalisi yang dilakukan antarpartai politik salah satunya didorong oleh motif atau tujuan yang hendak dicapai partai tersebut.');
+(16, 34, '\'dst/images/pembahasan/pembahasan.mp4\'', 'Berikut ciri-ciri sistem ekonomi tradisional:\r\n\r\nHanya punya sedikit modal\r\nBelum mengenal pembagian kerja\r\nTeknik produksi dipelajari secara turun temurun dan bersifat sederhana\r\nKegiatan perekonomian masih terkait dengan tradisi\r\nTanah merupakan sumber daya kemakmuran'),
+(17, 34, '\'dst/images/pembahasan/pembahasan.mp4\'', 'Perbedaan pendapat dalam masyarakat merupakan salah satu pemicu konflik sosial. Dalam kasus reklamasi pantai, ada pihak yang menganggap positif, tetapi ada pula pihak yang menganggap reklamasi sebagai kegiatan yang merusak lingkungan.'),
+(18, 36, '\'dst/images/pembahasan/pembahasan.mp4\'', 'Menurut Ruth Benedict, motif merupakan salah satu kajian dalam dinamika sosial. Motif memiliki arti sebagai tujuan yang akan dicapai dalam perkembangan dinamika sosial. So, berdasarkan pernyataan di atas, koalisi yang dilakukan antarpartai politik salah satunya didorong oleh motif atau tujuan yang hendak dicapai partai tersebut.');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `peserta`
+--
+
+CREATE TABLE `peserta` (
+  `id_peserta` int(11) NOT NULL,
+  `ID_siswa` int(11) NOT NULL,
+  `id_tes` int(11) NOT NULL,
+  `finished` enum('no','yes') NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `peserta`
+--
+
+INSERT INTO `peserta` (`id_peserta`, `ID_siswa`, `id_tes`, `finished`) VALUES
+(1, 10, 4, 'no'),
+(2, 9, 5, 'yes');
 
 -- --------------------------------------------------------
 
@@ -145,7 +168,8 @@ INSERT INTO `siswa` (`ID_siswa`, `email`, `password`, `nama`, `tgl_lhr`, `sma`, 
 (6, 'alz@gm.com', '604654492e7d61bdd04c456f4b191222', 'alzz', '2018-07-03', NULL, '199191', '2018-07-05 05:20:36'),
 (7, 'rizki.akbar1611@gmail.com', '9367c028d3e5aa999537d9533a5554a6', 'babar', '1996-11-16', NULL, '', '2018-08-01 09:40:00'),
 (8, 'al@gmail.com', 'b0b93e272985500da71718134bea2cc7', 'akbar alzaini', '2019-09-03', 'lahat', '9098789798', '2019-09-26 00:00:00'),
-(9, 'tisamonita11@gmail.com', '201ccea83c96bcef7649eddc7bac0dac', 'Tisa Monita', '1998-10-11', NULL, '081289041621', '2019-10-16 06:10:31');
+(9, 'tisamonita11@gmail.com', '201ccea83c96bcef7649eddc7bac0dac', 'Tisa Monita', '1998-10-11', NULL, '081289041621', '2019-10-16 06:10:31'),
+(10, 'sulthan@gmail.com', '202cb962ac59075b964b07152d234b70', 'sulthan', '2019-10-09', NULL, '028428364', '2019-10-20 09:18:32');
 
 -- --------------------------------------------------------
 
@@ -262,6 +286,14 @@ ALTER TABLE `pembahasan`
   ADD PRIMARY KEY (`id_pembahasan`);
 
 --
+-- Indexes for table `peserta`
+--
+ALTER TABLE `peserta`
+  ADD PRIMARY KEY (`id_peserta`),
+  ADD KEY `ID_siswa` (`ID_siswa`),
+  ADD KEY `id_tes` (`id_tes`);
+
+--
 -- Indexes for table `siswa`
 --
 ALTER TABLE `siswa`
@@ -295,36 +327,61 @@ ALTER TABLE `voucer`
 --
 ALTER TABLE `blog`
   MODIFY `id_blog` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
 --
 -- AUTO_INCREMENT for table `nilai`
 --
 ALTER TABLE `nilai`
   MODIFY `ID_nilai` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+
 --
 -- AUTO_INCREMENT for table `pembahasan`
 --
 ALTER TABLE `pembahasan`
   MODIFY `id_pembahasan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
+--
+-- AUTO_INCREMENT for table `peserta`
+--
+ALTER TABLE `peserta`
+  MODIFY `id_peserta` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT for table `siswa`
 --
 ALTER TABLE `siswa`
-  MODIFY `ID_siswa` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `ID_siswa` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
 --
 -- AUTO_INCREMENT for table `soal`
 --
 ALTER TABLE `soal`
   MODIFY `ID_soal` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+
 --
 -- AUTO_INCREMENT for table `tes`
 --
 ALTER TABLE `tes`
   MODIFY `id_tes` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
 -- AUTO_INCREMENT for table `voucer`
 --
 ALTER TABLE `voucer`
   MODIFY `id_voucer` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `peserta`
+--
+ALTER TABLE `peserta`
+  ADD CONSTRAINT `peserta_ibfk_1` FOREIGN KEY (`ID_siswa`) REFERENCES `siswa` (`ID_siswa`),
+  ADD CONSTRAINT `peserta_ibfk_2` FOREIGN KEY (`id_tes`) REFERENCES `tes` (`id_tes`);
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
