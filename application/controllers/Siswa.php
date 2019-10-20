@@ -107,7 +107,7 @@ class Siswa extends CI_Controller {
 		$skor=0;
 		$benar=0;
 		$salah=0;
-		$kosong=0;
+		$kosong=0; 
 		$jumlah = $this->Msoal->dftr_soal($id_tes)->num_rows();
 
 		
