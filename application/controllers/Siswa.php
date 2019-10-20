@@ -77,7 +77,6 @@ class Siswa extends CI_Controller {
 			$this->load->view('daftar_tes',$data);
 		}
 		else{
-
 			redirect('/siswa/awal');
 			//echo "<script type='text/javascript'>alert('Anda belum Login'); history.go(-1); </script>";
 		}
@@ -107,7 +106,7 @@ class Siswa extends CI_Controller {
 		$skor=0;
 		$benar=0;
 		$salah=0;
-		$kosong=0; 
+		$kosong=0;
 		$jumlah = $this->Msoal->dftr_soal($id_tes)->num_rows();
 
 		
@@ -154,6 +153,7 @@ class Siswa extends CI_Controller {
 	//menampilkan halaman list pembahasan
 	function listpembahasan(){
 		if (isset($_SESSION['nama'])) {
+			$data['siswa']		= $this->db->get_where('peserta', ['ID_siswa' => $_SESSION['ID_siswa']])->result()[0];
 			$data['tes']=$this->Msoal->dftr_tes()->result();
 			$this->load->view('listpembahasan',$data);
 		}

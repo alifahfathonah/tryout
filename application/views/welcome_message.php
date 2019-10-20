@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-    <title>Homepage | Education Center</title>
+    <title>Homepage | H! Campus</title>
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&amp;subset=latin%2Clatin-ext&amp;ver=4.3.1" type="text/css" media="all" />
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,700,700italic&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext" type="text/css" media="all" />
@@ -100,6 +100,17 @@
             </section>
 			<!-- Revolution slider -->
 			<!-- Content -->
+			<section style="background-color: #F5F5F5; text-align: center;">
+							<div class="row" style="padding-top: 2rem; padding-bottom: 2rem; padding-right: 4rem;">
+								<div class="col-lg-12">
+									<div class="container">
+										<h1>H! Campus</h1>
+										<p>H! Campus merupakan platform e-Learning dan try out yang juga salah satu upaya yang dilakukan untuk mengetahui <br>
+											seberapa paham anak didik dalam memahami materi menggunakan komputerisasi dengan berbasis website.</p>
+									</div>
+								</div>
+							</div>
+						</section>
             <div class="page_content_wrap">
                 <div class="content">
                     <article class="post_item post_item_single page">
