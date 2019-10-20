@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 20, 2019 at 03:33 AM
+-- Generation Time: Oct 20, 2019 at 04:02 AM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 7.0.13
 
@@ -77,7 +77,8 @@ INSERT INTO `nilai` (`ID_nilai`, `Id_siswa`, `id_tes`, `skor`, `salah`, `benar`,
 (20, 8, 5, 0, '1', '', ''),
 (21, 8, 5, 10, '', '1', ''),
 (22, 9, 4, 0, '1', '', '2|3|4|5|6|7|8|9|10'),
-(23, 9, 4, 10, '1|2|3|4|5|6|7|9|10', '8', '');
+(23, 9, 4, 10, '1|2|3|4|5|6|7|9|10', '8', ''),
+(24, 9, 6, 10, '1|2|3|4|5|6', '7', '');
 
 -- --------------------------------------------------------
 
@@ -97,21 +98,24 @@ CREATE TABLE `pembahasan` (
 --
 
 INSERT INTO `pembahasan` (`id_pembahasan`, `id_soal`, `link`, `isi`) VALUES
-(1, 12, ' ', ' '),
-(2, 13, ' bsbbsbs', '<p>sasasas</p>\r\n\r\n<p><img alt="" src="http://localhost/TO/dst/userfiles/files/694207.jpg" style="float:left; height:102px; width:200px" />bdjhudsyds SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS SSSSSSSSS SSSSSSSSSS SSSSSSSSSSS SSSSSSSSSSSS SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</p>\r\n'),
-(3, 14, ' ', '<p>ssdddx</p>\r\n'),
-(4, 15, 'dst/video/kent.mp4', '<p>dsdsds</p>\r\n'),
-(5, 16, ' ', ' '),
-(6, 17, ' ', ' '),
-(7, 18, ' ', ' Jawaban adalah C, karena ....'),
-(8, 19, ' ', ' '),
-(9, 27, '', 'Poetra atau Poesat Tenaga Rakyat yang dipimpin oleh 4 serangkai dibubarkan Jepang karena dianggap sebagai sarana untuk menyebarkan paham kebangsaan pada rakyat Indonesia.'),
-(10, 28, '', 'Dampak negatif yang terjadi selama masa pemerintahan Daendels adalah muncul kesewenang-wenangan tuan tanah swasta sebagai pihak yang mampu menyewa tanah terhadap rakyat sebagai pihak yang tidak mampu menyewa tanah.'),
-(11, 29, '', 'Peningkatan gas rumah kaca di atmosfer bumi membuat radiasi dari bumi terpantul kembali ke bumi hingga memicu peningkatan suhu di permukaan bumi.'),
-(12, 30, '', 'identifikasi perbedaan bangunan sekolah dan gedung kantor bisa dilakukan lewat interpretasi foto udara dengan unsur spasial yang meliputi bentuk dan pola.'),
-(13, 31, '', 'P	Q\r\n100.000	50\r\n50.000	30\r\n \r\n\r\nE = PQ QP\r\n\r\n= 100.00050 2050.000\r\n\r\n= 0,8'),
-(14, 32, '', 'Biaya yang tidak perlu dikeluarkan perusahaan saat sedang tidak berproduksi disebut sebagai biaya variabel.'),
-(15, 33, '', '\r\nMobilitas sosial merupakan proses perpindahan kelas sosial dalam dimensi stratifikasi atau diferensiasi. Dalam kasus ini, mobilitas yang terjadi adalah mobilitas stratifikasi yakni vertikal turun karena kelas sosial berpindah turun jadi kelas sosial yang lebih rendah dari sebelumnya.');
+(1, 12, 'dst/images/pembahasan/pembahasan.mp4', ' '),
+(2, 13, 'dst/images/pembahasan/pembahasan.mp4', '<p>sasasas</p>\r\n\r\n<p><img alt="" src="http://localhost/TO/dst/userfiles/files/694207.jpg" style="float:left; height:102px; width:200px" />bdjhudsyds SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS SSSSSSSSS SSSSSSSSSS SSSSSSSSSSS SSSSSSSSSSSS SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</p>\r\n'),
+(3, 14, 'dst/images/pembahasan/pembahasan.mp4', '<p>ssdddx</p>\r\n'),
+(4, 15, 'dst/images/pembahasan/pembahasan.mp4', '<p>dsdsds</p>\r\n'),
+(5, 16, 'dst/images/pembahasan/pembahasan.mp4', ' '),
+(6, 17, 'dst/images/pembahasan/pembahasan.mp4', ' '),
+(7, 18, 'dst/images/pembahasan/pembahasan.mp4', ' Jawaban adalah C, karena ....'),
+(8, 19, 'dst/images/pembahasan/pembahasan.mp4', ' '),
+(9, 27, 'dst/images/pembahasan/pembahasan.mp4', 'Poetra atau Poesat Tenaga Rakyat yang dipimpin oleh 4 serangkai dibubarkan Jepang karena dianggap sebagai sarana untuk menyebarkan paham kebangsaan pada rakyat Indonesia.'),
+(10, 28, 'dst/images/pembahasan/pembahasan.mp4', 'Dampak negatif yang terjadi selama masa pemerintahan Daendels adalah muncul kesewenang-wenangan tuan tanah swasta sebagai pihak yang mampu menyewa tanah terhadap rakyat sebagai pihak yang tidak mampu menyewa tanah.'),
+(11, 29, 'dst/images/pembahasan/pembahasan.mp4', 'Peningkatan gas rumah kaca di atmosfer bumi membuat radiasi dari bumi terpantul kembali ke bumi hingga memicu peningkatan suhu di permukaan bumi.'),
+(12, 30, 'dst/images/pembahasan/pembahasan.mp4', 'identifikasi perbedaan bangunan sekolah dan gedung kantor bisa dilakukan lewat interpretasi foto udara dengan unsur spasial yang meliputi bentuk dan pola.'),
+(13, 31, 'dst/images/pembahasan/pembahasan.mp4', 'P	Q\r\n100.000	50\r\n50.000	30\r\n \r\n\r\nE = PQ QP\r\n\r\n= 100.00050 2050.000\r\n\r\n= 0,8'),
+(14, 32, 'dst/images/pembahasan/pembahasan.mp4', 'Biaya yang tidak perlu dikeluarkan perusahaan saat sedang tidak berproduksi disebut sebagai biaya variabel.'),
+(15, 33, 'dst/images/pembahasan/pembahasan.mp4', '\r\nMobilitas sosial merupakan proses perpindahan kelas sosial dalam dimensi stratifikasi atau diferensiasi. Dalam kasus ini, mobilitas yang terjadi adalah mobilitas stratifikasi yakni vertikal turun karena kelas sosial berpindah turun jadi kelas sosial yang lebih rendah dari sebelumnya.'),
+(16, 34, '''dst/images/pembahasan/pembahasan.mp4''', 'Berikut ciri-ciri sistem ekonomi tradisional:\r\n\r\nHanya punya sedikit modal\r\nBelum mengenal pembagian kerja\r\nTeknik produksi dipelajari secara turun temurun dan bersifat sederhana\r\nKegiatan perekonomian masih terkait dengan tradisi\r\nTanah merupakan sumber daya kemakmuran'),
+(17, 34, '''dst/images/pembahasan/pembahasan.mp4''', 'Perbedaan pendapat dalam masyarakat merupakan salah satu pemicu konflik sosial. Dalam kasus reklamasi pantai, ada pihak yang menganggap positif, tetapi ada pula pihak yang menganggap reklamasi sebagai kegiatan yang merusak lingkungan.'),
+(18, 36, '''dst/images/pembahasan/pembahasan.mp4''', 'Menurut Ruth Benedict, motif merupakan salah satu kajian dalam dinamika sosial. Motif memiliki arti sebagai tujuan yang akan dicapai dalam perkembangan dinamika sosial. So, berdasarkan pernyataan di atas, koalisi yang dilakukan antarpartai politik salah satunya didorong oleh motif atau tujuan yang hendak dicapai partai tersebut.');
 
 -- --------------------------------------------------------
 
@@ -193,7 +197,10 @@ INSERT INTO `soal` (`ID_soal`, `soal`, `a`, `b`, `c`, `d`, `e`, `kunci`, `id_tes
 (30, 'Identifikasi perbedaan bangunan sekolah dan gedung kantor dapat dilakukan melalui interpretasi foto udara dengan menggunakan unsur…', 'Bayangan dan bentuk', 'Ukuran dan rona', 'Asosiasi dan rona', 'Ukuran dan bayangan\r\n', 'Bentuk dan pola', 'E', 6),
 (31, 'Ketika harga per unit suatu barang Rp100.000, jumlah barang yang ditawarkan 50 unit; dan ketika harga per unit turun menjadi Rp50.000, jumlah barang yang ditawarkan menjadi 30 unit. Nilai koefisien elastisitas penawaran barang tersebut bersifat…\r\n\r\n\r\n\r\n', 'Elastis unitari', 'Elastis', 'Inelastis', 'Elastis sempurna\r\n', 'Inelastis sempurna', 'B', 6),
 (32, 'Jenis biaya yang tidak perlu dikeluarkan oleh perusahaan saat sedang tidak berproduksi adalah…', 'Biaya total\r\n', 'Biaya variabel\r\n', 'Biaya peluang\r\n', 'Biaya tetap\r\n', 'Biaya marginal', 'B', 6),
-(33, 'Seorang direktur dihentikan dari jabatannya dan dijadikan staf biasa karena terbukti menyelewengkan sejumlah dana perusahaan. Direktur tersebut mengalami mobilitas…', 'Horizontal\r\n', 'Vertikal turun\r\n', 'Vertikal naik\r\n', 'Social climbing\r\n', 'Geografis', 'B', 6);
+(33, 'Seorang direktur dihentikan dari jabatannya dan dijadikan staf biasa karena terbukti menyelewengkan sejumlah dana perusahaan. Direktur tersebut mengalami mobilitas…', 'Horizontal\r\n', 'Vertikal turun\r\n', 'Vertikal naik\r\n', 'Social climbing\r\n', 'Geografis', 'B', 6),
+(34, 'Negara yang menerapkan sistem ekonomi tradisional memiliki ciri-ciri sebagai berikut, kecuaali...', 'Teknologi produksi sederhana', 'ikatan tradisi bersifat kekeluargaan', 'alat-alat produksi dimiliki dan dikuasai negara', 'belum ada pembagian kerja yang jelas', 'ketergantungan pada sektor pertanian/agraris', 'C', 6),
+(35, 'Berikut ini adalah dampak pada kondisi sosial dari perseteruan masyarakat yang terkena kasus reklamasi pantai…', 'Menguntungkan bisnis properti\r\n', 'Membuka lapangan kerja baru\r\n', 'Membuka peluang usaha baru\r\n', 'Menimbulkan perbedaan pendapat dalam masyarakat\r\n', 'Memperluas lahan pemukiman', 'D', 6),
+(36, 'Koalisi partai politik yang untuk mengusung salah satu calon wali kota merupakan salah satu kajian dinamika kelompok sosial menurut Ruth Benedict yang didasari oleh...', 'motif', 'kohesi', 'perpecahan', 'pimpinan', 'struktur', 'A', 6);
 
 -- --------------------------------------------------------
 
@@ -292,12 +299,12 @@ ALTER TABLE `blog`
 -- AUTO_INCREMENT for table `nilai`
 --
 ALTER TABLE `nilai`
-  MODIFY `ID_nilai` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `ID_nilai` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 --
 -- AUTO_INCREMENT for table `pembahasan`
 --
 ALTER TABLE `pembahasan`
-  MODIFY `id_pembahasan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id_pembahasan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 --
 -- AUTO_INCREMENT for table `siswa`
 --
@@ -307,7 +314,7 @@ ALTER TABLE `siswa`
 -- AUTO_INCREMENT for table `soal`
 --
 ALTER TABLE `soal`
-  MODIFY `ID_soal` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `ID_soal` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 --
 -- AUTO_INCREMENT for table `tes`
 --
